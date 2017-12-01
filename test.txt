@@ -1,0 +1,9 @@
+www.royalrobbins.com
+
+
+1. sudo apt-get update
+2. sudo apt-get install libmagickwand-dev
+3. sudo apt-get install imagemagick
+4. sudo apt-get install php5.6-imagick && sudo php5.6enmod imagick
+5. sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml
+6. sudo apt-get install firefox=45.0.2+build1-0ubuntu1
