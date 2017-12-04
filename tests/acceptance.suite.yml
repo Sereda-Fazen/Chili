@@ -11,25 +11,14 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-        - WebDriver
-        - WebHelper
-        - VisualCeption
-        - VisualCeptionReporter
-
-    config:
-        WebDriver:
-            url:
-            #window_size: 1280x3000
-            # 1264x1864
+        - WebDriver:
+            url: http://localhost.com
             browser: firefox
-            clear_cookies: false
-
-            capabilities:
-                webStorageEnabled: true
-        VisualCeption:
-            maximumDeviation: 0.02
+        - VisualCeption:
+            maximumDeviation: 5
             saveCurrentImageIfFailure: true
             report: true
+            templateFile: "/report/template2.php" # Absolute path or relative from module dir to report template. Default "/report/template.php"
 
 
 env:
