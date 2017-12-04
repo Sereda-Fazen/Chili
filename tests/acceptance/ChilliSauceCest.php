@@ -2,7 +2,7 @@
 use Page\PageScreens;
 
 /**
- * @group test
+ * @group chilli
  */
 
 class ChilliSauceCest
