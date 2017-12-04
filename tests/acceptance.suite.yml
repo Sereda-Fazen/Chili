@@ -27,8 +27,9 @@ modules:
             capabilities:
                 webStorageEnabled: true
         VisualCeption:
-            maximumDeviation: 0.3
+            maximumDeviation: 0.02
             saveCurrentImageIfFailure: true
+            report: true
 
 
 env:

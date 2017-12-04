@@ -17,15 +17,15 @@ modules:
             password: ''
             dump: tests/_data/dump.sql
 
-modules:
-    enabled: [WebDriver, VisualCeption]
+#modules:
+#    enabled: [WebDriver, VisualCeption]
 
 
-VisualCeption:
-    referenceImageDir:                                     # Path to the reference folder (optional, standard is
-                                                          # <datadir>/VisualCeption/)
-    maximumDeviation: 0,2                                   # deviation in percent
-    saveCurrentImageIfFailure: true
+#VisualCeption:
+#    referenceImageDir:                                     # Path to the reference folder (optional, standard is
+#                                                          # <datadir>/VisualCeption/)
+#    maximumDeviation: 0,2                                   # deviation in percent
+#    saveCurrentImageIfFailure: true
 
             # dev@itsvit.org
             # fL1*6S S#4T)%1t
