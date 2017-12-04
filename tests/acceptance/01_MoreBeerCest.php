@@ -17,8 +17,25 @@ class MoreBeerCest
     {
         $I->amOnPage('/');
         $I->waitForJS("return jQuery.active == 0;", 60);
-        $I->dontSeeVisualChanges('TestPage', PageScreens::$body, []);
+        $I->dontSeeVisualChanges('TesPage', PageScreens::$body, []);
     }
+
+    public function test2(AcceptanceTester $I)
+    {
+        $I->amOnUrl('http://www.chillisauce.co.uk/stag/');
+        $I->waitForJS("return jQuery.active == 0;", 60);
+        $I->dontSeeVisualChanges('StagPage', PageScreens::$body, []);
+    }
+
+    public function test3(AcceptanceTester $I)
+    {
+        $I->amOnUrl('http://www.chillisauce.co.uk/');
+        $I->waitForJS("return jQuery.active == 0;", 60);
+        $I->dontSeeVisualChanges('HomePage', PageScreens::$body, []);
+    }
+
+    
+    
 }
 //    }
 //
