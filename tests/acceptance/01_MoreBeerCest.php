@@ -16,7 +16,7 @@ class MoreBeerCest
     public function test(AcceptanceTester $I)
     {
         $I->amOnPage('/');
-        $I->wait(2);
+        $I->waitForJS("return jQuery.active == 0;", 60);
         $I->dontSeeVisualChanges('TestPage', PageScreens::$body, []);
     }
 }

@@ -37,6 +37,6 @@ env:
       modules:
         config:
           WebDriver:
-            url: 'http://www.chillisauce.co.uk/stag/'
+            url: 'http://www.chillisauce.co.uk/stag/destination-ideas/'
             #window_size: 1920x3000
 
