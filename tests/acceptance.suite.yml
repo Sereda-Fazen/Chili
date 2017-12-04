@@ -19,7 +19,7 @@ modules:
     config:
         WebDriver:
             url:
-            window_size: 1280x3000
+            #window_size: 1280x3000
             # 1264x1864
             browser: firefox
             clear_cookies: false
@@ -27,7 +27,7 @@ modules:
             capabilities:
                 webStorageEnabled: true
         VisualCeption:
-            maximumDeviation: 1
+            maximumDeviation: 0.3
             saveCurrentImageIfFailure: true
 
 
