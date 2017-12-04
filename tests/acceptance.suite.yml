@@ -19,7 +19,7 @@ modules:
     config:
         WebDriver:
             url:
-            window_size: 1920x1200
+            window_size: 1280x3000
             # 1264x1864
             browser: firefox
             clear_cookies: false
