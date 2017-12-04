@@ -5,7 +5,7 @@ use Page\PageScreens;
  * @group test
  */
 
-class MoreBeerCest
+class ChiliCest
 {
 
     /**
