@@ -16,22 +16,22 @@ class ChilliSauceCest
     public function PageDestination(AcceptanceTester $I)
     {
         $I->amOnPage('/');
-        $I->waitForJS("return jQuery.active == 0;", 60);
-        $I->dontSeeVisualChanges('TesPage', PageScreens::$body, []);
+        $I->wait(5);
+        $I->dontSeeVisualChanges('PageDestination', PageScreens::$body,[], 2);
     }
 
     public function PageStag(AcceptanceTester $I)
     {
         $I->amOnUrl('http://www.chillisauce.co.uk/stag/');
-        $I->waitForJS("return jQuery.active == 0;", 60);
-        $I->dontSeeVisualChanges('StagPage', PageScreens::$body, []);
+        $I->wait(5);
+        $I->dontSeeVisualChanges('PageStag', PageScreens::$body,[],  0.2);
     }
 
     public function PageHome(AcceptanceTester $I)
     {
         $I->amOnUrl('http://www.chillisauce.co.uk/');
-        $I->waitForJS("return jQuery.active == 0;", 60);
-        $I->dontSeeVisualChanges('HomePage', PageScreens::$body, []);
+        $I->wait(5);
+        $I->dontSeeVisualChanges('PageHome', PageScreens::$body,[], 0.002);
     }
 
     
