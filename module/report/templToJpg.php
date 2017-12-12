@@ -52,7 +52,7 @@
 		<hr>
 		
 	<?php endforeach; ?>
-	
+
 	<script type="text/javascript">
 		images = document.querySelectorAll('div > img')
 		for (var i = 0; i < images.length; i++) {
